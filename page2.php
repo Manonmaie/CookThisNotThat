@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="page2_css.css" />
-
+<body bgcolor="#fdf888">
 <?php
     $servername = "db";
     $username = "root";
