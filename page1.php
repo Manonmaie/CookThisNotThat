@@ -2,6 +2,7 @@
 
 <?php  //echo $_SERVER['PHP_SELF'];
 ?>
+<body bgcolor="#D6EBF2">
 <div class="container">
 	<img src="CTNT.jpg" class = "center" >
 	<h1>Ingredients</h1>
