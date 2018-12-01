@@ -11,7 +11,7 @@ services:
     ports:
       - "3001:3306"
     volumes:
-     - /var/lib/jenkins/workspace/CookThisNot_Build/CookThisNotThat_create.sql:/docker-entrypoint-initdb.d/create.sql
+     - /Desktop/CookThisNotThat/CookThisNotThat_create.sql:/docker-entrypoint-initdb.d/create.sql
 
   web:
     build: .
@@ -19,7 +19,7 @@ services:
     depends_on:
       - db
     volumes:
-      - /var/lib/jenkins/workspace/CookThisNot_Build:/var/www/html/
+      - /var/www/html/SE_PROJ:/var/www/html/
     ports:
       - "3000:80"
     stdin_open: true
