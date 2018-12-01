@@ -11,7 +11,7 @@ services:
     ports:
       - "3001:3306"
     volumes:
-     - /Desktop/CookThisNotThat/CookThisNotThat_create.sql:/docker-entrypoint-initdb.d/create.sql
+     - /home/manonmaie/Desktop/CookThisNotThat/CookThisNotThat_create.sql:/docker-entrypoint-initdb.d/create.sql
 
   web:
     build: .
